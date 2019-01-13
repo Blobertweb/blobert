@@ -722,9 +722,9 @@ a.link {
     }
        #titulo-card{
         font-family: 'Amatic SC', cursive;
-        font-size: 10rem;  
-        margin-left: 20rem;
-        background: rgba(0, 0, 0, 0.041);
+        font-size: 8rem;  
+        width: 32rem;
+        background: rgba(0, 0, 0, 0.363);
     }
 
     
@@ -909,6 +909,10 @@ a.link {
         font-size: 8rem;
 
     }
+        #subtitulo-clases{
+        margin-top: 6rem;
+        font-family:'Amatic SC', cursive;
+    }
     }
     #separador-gato-2{
         width: 60rem;
@@ -1015,11 +1019,15 @@ a.link {
         font-family: cursive;
     }
     .clases-texto{
-        margin-top: 9rem;
+
         font-family: cursive;
         font-size: 1.5rem;
 
          
+    }
+    #subtitulo-clases{
+        margin-top: 6rem;
+        font-family:'Amatic SC', cursive;
     }
     #boton-imagenes-clases{
         margin-bottom: 1rem;
@@ -1046,9 +1054,9 @@ a.link {
         color:black;
         
     }
+
     .carrusel{
-        margin-left: 10rem;
-        margin-bottom: 0.5rem;
+        margin-left: 0rem;
     }
        #scale-demo{
         width: 450px;
@@ -1066,7 +1074,7 @@ a.link {
         color:rgb(70, 62, 62);
     }
     .mySlides{
-        
+        margin-left: -4rem;
         width:800px;
         border-radius: 0.3rem;
         border: 1px solid  rgb(196, 255, 237);
@@ -1098,6 +1106,10 @@ a.link {
         font-family: 'Amatic SC', cursive;
         letter-spacing: 2px;
         font-size: 4.4rem
+    }
+        #subtitulo-clases{
+        margin-top: 6rem;
+        font-family:'Amatic SC', cursive;
     }
     #separador-gato-2{
         width: 35rem;
@@ -1394,9 +1406,6 @@ a.link {
         width: 100%;
         background: #000000;
     }
-    #contacto-facebook-2{
-        height: 45.9%;
-    }
     #boton-facebook{
         background:#a0f5cc00;
         border:1px solid #ffffff;
@@ -1423,14 +1432,14 @@ a.link {
         font-family: 'Amatic SC', cursive;
     }
     .fondo-contacto-facebook{
-        margin-top: -1.5rem;
+
         height: 40rem;
         color: white;
         background: #3B5998;
         font-family: 'Amatic SC', cursive;
     }
     .fondo-contacto-whatsapp{
-        margin-top: -2.5rem;
+
         height: 40rem;
         color:white;
         font-family: 'Amatic SC', cursive;
