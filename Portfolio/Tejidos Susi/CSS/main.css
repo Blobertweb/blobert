@@ -1,0 +1,1633 @@
+
+
+
+
+
+div hr {
+width: 25rem;
+
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right,rgba(247, 142, 142,0), #1dbd8a, rgba(255, 255, 255, 0));
+}
+
+#hr-principal{
+    background-image: linear-gradient(to right,rgba(247, 142, 142,0), #1dbd8a, rgba(255, 255, 255, 0));
+    color:#1dbd8a;
+  
+}
+/* menu */
+
+#menu-responsive{
+    display: none;
+}
+div a{
+    color:rgb(0, 0, 0);
+}
+
+.margen-s6{
+   font-family: 'Amatic SC', cursive;
+   font-size: 5rem;
+   letter-spacing:3px;
+}
+
+.margen-s3{
+    margin-top:14rem;
+    font-size: 3rem;
+    font-size: 2.8rem;;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+    letter-spacing:7px;
+}
+    
+
+.divider{
+color: black;
+}
+
+
+.fondo-principal{
+   display: block;
+    background-image: url(../images/fondo-degradado.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo-tejido{
+    display: block;
+    background-image: url('../images/fondo-tejido-2.png'); 
+    height:100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.menu-titulo{
+    color:white;
+    padding-top: 2rem;
+    padding-bottom: -25rem;
+    
+}
+
+#productos:hover,productos:focus,productos:active{
+display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(20px) translateZ(1);
+  transform: perspective(20px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#clases:hover,clases:focus,clases:active{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(20px) translateZ(1);
+  transform: perspective(20px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#contacto:hover,contacto:focus,contacto:active{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(20px) translateZ(1);
+  transform: perspective(20px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Redes Sociales */
+
+/* ----- */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+
+.social {
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+    
+   
+}
+
+.social h2 {
+    margin-top: 20rem;
+	color: #000000;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing:5px;
+}
+
+[class^="icon-btn"] /*.icon-btn*/ {
+	height: 75px;
+	width: 75px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+	line-height: 75px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 10px;
+	background-color: rgb(236, 255, 249);
+}
+
+
+
+.facebook {
+	color: #3B5998;
+}
+
+.instagram {
+	color: rgb(189, 81, 129);
+}
+
+
+
+.icon-btn:hover {
+	transform: scale(1.10);	
+	color: #FFFFFF;
+}
+
+
+
+.facebook:hover {
+	background-color: #3B5998;	
+}
+
+
+
+.instagram:hover {
+	background-color:	rgb(214,41,118);	
+}
+
+
+
+a.link {
+	color: inherit;	
+}
+/* ----- */
+/* Menu Responsive - MOBILE */
+/* @media (min-height:566px){
+     .social {
+
+
+
+    }
+} */
+  /* @media (max-width:480px ){ 
+   div hr {
+       margin-top: 1.5rem;
+        width: 10rem;
+        border: 0;
+        height: 0.7px;
+        background-image: linear-gradient(to right,rgba(247, 142, 142,0), #1dbd8a, rgba(255, 255, 255, 0));
+} 
+#logo {
+    width: 150px;
+    margin-top: -1.4rem;
+
+}
+#menu{
+    display: none;
+}
+#menu-responsive{
+    display:inline;
+}
+#productos-responsive{
+    margin-right: 1rem;
+}
+#clases-responsive{
+    margin-right: 1rem;
+}
+    .margen-s6{
+
+        margin-top:-1rem;
+        font-size:2.2rem;
+        letter-spacing:1.5px;
+  
+    }
+    .margen-s3{
+        margin-top: 0rem;
+        font-size: 1.4rem;;
+        font-family: 'Amatic SC', cursive;
+     
+        letter-spacing:4px;
+    
+        
+    }
+
+
+    .fondo-principal{
+        background-image: url(../images/fondo-degradado.jpg);
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fondo-tejido{
+        background-image: url('../images/fondo-tejido-2.png'); 
+        height:70%;
+    }
+    .social {
+    text-align: center;   
+    }
+
+    .social h2 {
+        margin-top: 9rem;
+        font-size: 1.8rem;
+        color: #000000;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing:5px;
+    }
+
+    [class^="icon-btn"] {
+        height: 40px;
+        width: 30px;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        line-height: 20px;
+        transition: ease-in-out .3s;
+        border-radius: 50px;
+        
+        background-color: rgb(236, 255, 249);
+      
+    }
+    .facebook {
+	    background-color: #3B5998;
+    }
+
+    .instagram {
+        background-color: rgb(189, 81, 129);
+    }
+
+
+}  */
+
+
+/* ----- */
+/* Menu Responsive -  */
+@media  (min-width:481px) and (max-width:992px){
+   div hr {
+        width: 30rem;
+        border: 5px;
+        height: 2px;
+        background-image: linear-gradient(to right,rgba(247, 142, 142,0), #1dbd8a, rgba(255, 255, 255, 0));
+    } 
+    #logo {
+        width: 500px;
+    }
+    #menu{
+        display: none;
+    }
+    #menu-responsive{
+        display:inline;
+    }
+    #productos-responsive{
+        margin-right: 1rem;
+    }
+    #clases-responsive{
+        margin-right: 1rem;
+    }
+    .margen-s6{
+        margin-top: -3rem;
+        font-size: 6rem;
+        letter-spacing:1.5px;
+    }
+    .margen-s3{
+        margin-top: 2rem;
+        font-size: 6rem;;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 400;
+        letter-spacing:4px;       
+    }
+    .fondo-principal{
+        background-image: url('../images/fondo-degradado.jpg');
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fondo-tejido{
+        background-image: url('../images/fondo-tejido-2.png'); 
+        height:100rem;
+ 
+    }
+    #redes-sociales{
+        margin-right: 10rem;
+    }
+    .social { 
+    padding-right: 3rem;
+    }
+
+    .social h2 {
+        margin-top:  0rem;
+        font-size: 4rem;
+        color: #000000;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing:0px;
+    }
+
+    [class^="icon-btn"] /*.icon-btn*/ {
+        height: 75px;
+        width: 75px;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 50px;
+        line-height:50px;
+        transition: ease-in-out .3s;
+        border-radius: 50px;
+        background-color: rgb(236, 255, 249);
+    }
+    .facebook {
+        background-color: #3B5998;
+        margin-left:-1rem;
+    }
+
+    .instagram {
+        background-color: rgb(189, 81, 129);
+    }
+
+
+}
+@media  (min-width:800px) and (max-width:900px){
+  .social h2 {
+        margin-top:  5rem;
+        font-size: 3.5rem;
+        color: #000000;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing:5px;
+    }
+
+    [class^="icon-btn"] /*.icon-btn*/ {
+        height: 60px;
+        width: 60px;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 30px;
+        line-height: 30px;
+        transition: ease-in-out .3s;
+        border-radius: 50px;
+         
+        background-color: rgb(236, 255, 249);
+    }
+       .facebook {
+        background-color: #3B5998;
+        margin-left:-1rem;
+    }
+
+    .instagram {
+        background-color: rgb(189, 81, 129);
+    }
+}
+/* ----------------------------------------------------- */
+@media  (min-width:993px) and (max-width:1600px){
+   div hr {
+        
+        width: 16rem;
+        border: 0;
+        height: 0.7px;
+        background-image: linear-gradient(to right,rgba(247, 142, 142,0), #1dbd8a, rgba(255, 255, 255, 0));
+} 
+#logo {
+    width: 300px;
+    margin-top: -1rem;
+
+}
+
+
+
+#productos-responsive{
+    margin-right: 1rem;
+}
+#clases-responsive{
+    margin-right: 1rem;
+}
+    .margen-s6{
+
+        margin-top:-4rem;
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+  
+    }
+    .margen-s3{
+        margin-top: 15rem;
+        font-size: 2.3rem;;
+        font-family: 'Amatic SC', cursive;
+     
+        letter-spacing:4px;
+    
+        
+    }
+
+
+    .fondo-principal{
+        background-image: url(../images/fondo-degradado.jpg);
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fondo-tejido{
+        background-image: url('../images/fondo-tejido-2.png'); 
+        height:100%;
+ 
+  
+ 
+    }
+
+ 
+    .social {
+    margin-top: 20rem;
+    
+
+    }
+
+    .social h2 {
+        margin-top: 17rem;
+        font-size: 3.2rem;
+        color: #000000;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing:5px;
+    }
+
+    [class^="icon-btn"] /*.icon-btn*/ {
+        height: 50px;
+        width: 50px;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 30px;
+        line-height: 40px;
+        transition: ease-in-out .3s;
+        border-radius: 50px;
+         
+        background-color: rgb(236, 255, 249);
+    }
+    .facebook {
+	    background-color: #3B5998;
+    }
+
+    .instagram {
+        background-color: rgb(189, 81, 129);
+    }
+
+
+}
+
+
+/* ------PRODUCTOS------ */
+
+
+  
+    .button-1{
+        cursor: pointer;
+    }
+    .imagenes-1{
+        display: none;
+    }
+    .imagenes-2{
+        display: none;
+    }
+    .imagenes-3{
+        display: none;
+    }
+    .productos-icono{
+        margin-top: -5rem;
+    }
+    .borde-imagen{
+        cursor:pointer;
+
+    }
+      .productos-titulo{
+        font-family: 'Amatic SC', cursive;
+    }
+       #titulo-card{
+        font-family: 'Amatic SC', cursive;
+        font-size: 8rem;  
+        background: rgba(0, 0, 0, 0.41);
+        color: rgb(240, 240, 240);
+        width: 41rem;
+        
+
+    }
+   
+    
+/* @media (max-width:480px){
+
+    
+    .fondo-productos{ 
+        height:100vh;
+        background-size: cover;
+        font-family: 'Open Sans', sans-serif;
+    }
+     .productos-titulo{
+        letter-spacing: 1px;
+        font-size: 8rem;
+    }
+    .card{
+        border-radius: 2rem;
+    }
+    .card-title{
+        font-family: 'Amatic SC', cursive;
+    }
+
+   
+    #separador-gato{
+        width: 340px;
+        margin-top: -6rem;
+        margin-right: 1rem;
+    }
+    .borde-imagen{
+        border: solid 1px rgb(31, 31, 31);
+        border-radius:5px;
+        margin-left: 0.5rem;
+        width: 140px;
+        
+    }
+    .padding-imagenes{
+        padding-bottom: 0.1rem;
+    }
+      .imagenes-1{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .imagenes-2{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .imagenes-3{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+} */
+
+@media  (min-width:481px) and (max-width:992px){
+        @media (min-height:320px) and (max-height:375px){
+                #seccion-productos{
+                margin-top: 30rem;
+            }
+
+            
+            #separador-gato{
+                margin-top: -5rem;
+                width: 30rem;
+            }
+         
+            .card-title{
+                font-family: 'Amatic SC', cursive;
+             
+            
+            }
+
+            .borde-imagen{
+                border: solid 1px rgb(31, 31, 31);
+                border-radius:5px;
+                margin-left: 0rem;     
+            }
+            .tamanio{
+                width:0 auto !important;
+            }
+        }   
+
+    .card-fondo{
+        background-color: rgb(204, 248, 241);
+    }
+    .fondo-productos{     
+        height:100vh;
+        font-family: 'Open Sans', sans-serif;
+    }
+      .productos-titulo{
+        font-size: 10rem;
+
+    }
+    #separador-gato{
+        margin-top: -5rem;
+        margin-left: -5rem;
+        width: 50rem;
+    }
+    .card{
+        border-radius: 2rem;
+    }
+    #titulo-card{
+        font-family: 'Amatic SC', cursive;
+        font-size: 10rem;  
+        margin-left: 0rem;
+        background: rgba(0, 0, 0, 0.363);
+        width: 68.4rem;
+    }
+    .card-title{
+       
+    }
+    .button-1{
+        cursor: pointer;
+        font-size: 4rem;
+    }
+    .card-content{
+        font-size: 2.3rem;
+    }
+
+
+    .borde-imagen{
+        border: solid 1px rgb(31, 31, 31);
+        border-radius:5px;
+        margin-left: 1rem;
+        width: 190px;
+    }
+
+  .imagenes-1{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .imagenes-2{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+    }
+    .imagenes-3{
+        display: none;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .consultar-2{
+        padding: 2rem 2rem 4rem 2rem;
+        font-size: 4rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 2rem;
+        background:#a0f5cc;
+        color:black;
+    }
+  
+}
+@media  (min-width:993px) and (max-width:1600px){
+
+    .fondo-productos{
+
+        height:100vh;
+        background-size: cover;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #consultar{
+        float: right;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: -4rem;
+        padding: 1rem 1rem 3rem 1rem;
+        font-size: 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 2rem;
+        background:#a0f5cc;
+        color:black;
+
+
+    }
+    #separador-gato{
+        margin-top: -6rem;
+        margin-left: 8rem;
+        width: 450px;
+    }
+    .card{
+        margin-top: 5rem;
+        border-radius: 2rem;
+        padding-bottom: 0.1rem;
+
+    }
+    .productos-titulo{
+        font-family: 'Amatic SC', cursive;
+        font-size: 5rem;
+
+    }
+       #titulo-card{
+        font-family: 'Amatic SC', cursive;
+        font-size: 10rem;  
+        margin-left: 20rem;
+        background: rgba(0, 0, 0, 0.041);
+    }
+
+    
+.borde-imagen{
+   
+    border: solid 1px #00000009 ;
+    border-radius:0.5rem;
+    width: 85px;
+    margin-left: 0.4rem;
+    
+
+}
+.card-fondo{
+    background-color: rgb(204, 248, 241);
+}
+    
+}
+
+@media(min-width:1600px){
+#card-1{
+    cursor: pointer;
+}
+#card-2{
+    cursor: pointer;
+}
+#card-3{
+    cursor: pointer;
+}
+
+.fondo-productos{
+
+        height:100vh;
+        background-size: cover;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+.card{
+    margin-top: 4rem;
+    border-radius: 2rem;
+    padding-bottom: 0.1rem;
+}
+.borde{
+    border-radius: 40rem;
+}
+.productos-titulo{
+ 
+    font-size: 5rem;
+
+}
+.card-fondo{
+    background-color: rgb(204, 248, 241);
+}
+#consultar{
+    float: right;
+    margin-bottom:-3rem;
+    padding: 1rem 1rem 3rem 1rem;
+    font-size: 2rem;
+    font-family:'Amatic SC', cursive;
+    border-radius: 2rem;
+    background:#a0f5cc;
+    color:black;
+}
+#separador-gato{
+
+    margin: 0 auto;
+    margin-top: -8rem;
+    margin-left: 7rem;
+
+}
+
+.borde-imagen{
+    margin-left: 0.6rem;
+    border: solid 1px #00000009 ;
+    border-radius:0.5rem;
+    
+
+}
+
+
+}
+
+#mapid { height: 400px; height:400px;}
+/* ---------------------------------------------- */
+/* CLASES */
+
+/* @media (max-width:480px ){
+    
+   .fondo-productos{
+        height:100%;
+        background-size: cover;   
+    }
+   
+    #mapid { width: 310px; height:200px;}
+    .titulo-clases{
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 2px;
+    }
+    #separador-gato-2{
+        width: 350px;
+        margin-top: -2.5rem;
+        margin-left: -2rem;
+    }
+
+    .descripcion{
+        margin-top: -0.2rem;
+        font-size: 0.85rem;
+        font-family: cursive;
+    }
+    .clases-texto{
+        margin-top: 0;
+        font-family: cursive;
+        font-size: 1.1rem;
+
+         
+    }
+    #boton-imagenes-clases{
+        margin-top: -3rem;
+    
+        font-size: 1.5rem;
+        padding: -5rem -5rem -5rem -5rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        
+    }
+    #boton-volver-clases{
+        margin-top: -3rem;
+        background: rgb(80, 205, 255);
+        font-size: 1.5rem;
+        padding: -5rem -5rem -5rem -5rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        
+    }
+    .boton-slider{
+        background:#06b35f;
+        color: white;
+        cursor: pointer;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 5rem;
+        border: 1px solid #06b35f98;
+    }
+    .mySlides{
+        width:320px;
+        border-radius: 0.3rem;
+        border: 1px solid  rgb(196, 255, 237);
+    }
+
+} */
+
+@media (min-width: 320px) and (max-width: 700px) {
+    @media  (min-width:799px) and (max-width:901px){
+            #mapid {
+            margin-left: 4rem;
+        }
+            .mySlides{
+            margin-left: 2rem;
+        }
+
+    }
+    
+    .fondo-productos{
+        height:100%;
+        background-size: cover; 
+    }
+
+    #mapid {
+        width: 700px; 
+        height:400px;
+        margin-top: 2rem;
+        margin-left: 5rem;
+}
+    .titulo-clases{
+        margin-top: 10rem;
+        font-family: 'Amatic SC', cursive;
+        font-size: 8rem;
+
+    }
+    }
+    #separador-gato-2{
+        width: 60rem;
+        margin-top: -6rem;
+        margin-left: -8rem;
+    }
+
+    .descripcion{
+        margin-top: -0.2rem;
+        font-size: 2.5rem;
+        font-family: 'Amatic SC', cursive;
+    }
+    .clases-texto{
+        font-family: cursive;
+        font-size: 3.5rem
+         
+    }
+
+      .titulo-clases{
+        margin-top: 1rem;
+        font-family: 'Amatic SC', cursive;
+        font-size: 7rem;
+        letter-spacing: 2px;
+    }
+    #boton-imagenes-clases{
+        margin-top: -4rem;
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+        padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        margin-bottom: 10rem;
+        
+    }
+       #boton-volver-clases{
+        margin-top: -12rem;
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+         padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        margin-bottom: 10rem;
+        
+    }
+        .boton-slider{
+            padding: 1rem 1rem 1rem 1rem;
+            font-size: 2rem;
+            border-radius: 2rem;
+            width: 10rem;
+            background:#a0f5cc;
+            color:rgb(70, 62, 62);
+    }
+    .mySlides{
+        margin-left: 6rem;
+        width:650px;
+        border-radius: 1rem;
+        border: 1px solid  rgb(196, 255, 237);
+        
+    }
+
+#scale-demo{
+    margin-bottom: 10rem;
+}
+
+
+
+@media  (min-width:640px) and (max-width:650px){
+        #mapid { width:40rem;
+        margin-left: 0rem;}
+
+    }
+@media  (min-width:993px) and (max-width:1600px){
+
+    .fondo-clases{
+        margin-top: -4rem;
+        height:100vh;
+    }
+    /* #seccion-clases{
+        
+    } */
+    #mapid { width: 500px; height:300px;
+    margin-top: 8rem;
+  
+    }
+    .titulo-clases{
+        margin-top: 4rem;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 2px;
+        font-size: 4.4rem
+    }
+    #separador-gato-2{
+        width: 30rem;
+        margin-top: -2.5rem;
+        margin-left: -3rem;
+    }
+
+    .descripcion{
+        margin-top: -0.2rem;
+        font-size: 1rem;
+        font-family: cursive;
+    }
+    .clases-texto{
+        margin-top: 9rem;
+        font-family: cursive;
+        font-size: 1.5rem;
+
+         
+    }
+    #boton-imagenes-clases{
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+        padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        
+    }
+
+    #boton-volver-clases{
+        margin-top: -2rem;
+        margin-right: 2rem;
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+        padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        
+    }
+    .carrusel{
+        margin-left: 10rem;
+        margin-bottom: 0.5rem;
+    }
+       #scale-demo{
+        width: 450px;
+        float: right;
+        margin-top: -27rem;
+        margin-left: 26rem;
+
+    }
+     .boton-slider{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        font-size: 1rem;
+        border-radius: 2rem;
+        width: 10rem;
+        background:#a0f5cc;
+        color:rgb(70, 62, 62);
+    }
+    .mySlides{
+        
+        width:800px;
+        border-radius: 0.3rem;
+        border: 1px solid  rgb(196, 255, 237);
+        
+    }
+
+}
+@media  (min-width:1000px) and (max-width:1440px){
+     #mapid { width: 400px; height:300px;
+    margin-top: 8rem;
+  
+    }
+}
+@media  (min-width:1600px){
+    .fondo-clases
+    {
+        margin-top: -5rem;
+        height:100vh;
+        background-size: cover;
+       
+    }
+
+    #mapid { 
+        margin-top: 6rem;
+
+    }
+    .titulo-clases{
+        margin-top: 5rem;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 2px;
+        font-size: 4.4rem
+    }
+    #separador-gato-2{
+        width: 35rem;
+        margin-top: -2.5rem;
+        margin-left: -3rem;
+    }
+
+    .descripcion{
+        margin-top: -0.2rem;
+        font-size: 1rem;
+        font-family: cursive;
+    }
+    .clases-texto{
+        margin-top: 2rem;
+        font-family: cursive;
+        font-size: 1.5rem;  
+    }
+    #boton-imagenes-clases{
+        margin-bottom: 1rem;
+        margin-top: 1.4rem;
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+        padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        
+    }
+        #boton-volver-clases{
+      
+        background: rgb(80, 205, 255);
+        font-size: 2.6rem;
+         padding: 2rem 2rem 4rem 2rem;
+        font-family:'Amatic SC', cursive;
+        border-radius: 4rem;
+        background:#a0f5cc;
+        color:black;
+        margin-top: 3rem;
+        margin-left: 22.5rem;
+        
+    }
+    #scale-demo{
+        width: 600px;
+        float: right;
+        margin-top: -33rem;
+
+    }
+    .carrusel{
+        margin-left: 12rem;
+
+    }
+      .boton-slider{
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            font-size: 1rem;
+            border-radius: 2rem;
+            width: 10rem;
+            background:#a0f5cc;
+            color:rgb(70, 62, 62);
+    }
+    .mySlides{
+        width:650px;
+        border-radius: 0.4rem;
+        border: 1px solid  rgb(196, 255, 237);
+        
+    }
+    
+}
+
+/* Contacto */
+/* @media (max-width:480px){
+
+    
+    .fondo-contacto{
+        height:100vh;
+        background-size: cover;
+    }
+
+    #separador-gato-3{
+        width:350px;
+        margin-top: -10rem;
+        padding-bottom: 2rem;
+    }
+
+    #hr-contacto{
+        margin-top: 0.01rem;
+        color: black;
+        padding: 0.2px;
+        width: 100%;
+        background: #000000;
+    }
+    #boton-facebook{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+     #boton-whatsapp{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+    #contacto-facebook-2{
+        padding-bottom: 4rem;
+      
+    }
+    .contacto-titulo{
+        padding-top: 1rem;
+        letter-spacing: 1px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-facebook{
+
+        margin-top: -1.5rem;
+        height: 19rem;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-whatsapp{
+        
+        margin-top: -2.4rem;
+        height: 18rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+    }
+    .contacto-subtitulo{
+        padding-top: 4rem;
+    }
+     .fondo-pie{
+        background: rgb(136, 245, 230);
+        padding: 1.6rem;
+        margin-top: -6.3rem;
+    }
+    .menu-pie{
+        font-family: 'Amatic SC', cursive;
+        font-size: 2rem;
+
+        margin-left: 1rem;
+
+    }
+    #menu-pie{
+       margin-top: -2rem;
+        margin-left: 0rem;
+       
+    }
+    .pie-blobert{
+        margin-top: 0rem;
+       font-family: 'Amatic SC', cursive;
+       font-size: 1.2rem;
+    }
+    .blobert-web{
+        font-size: 1rem;
+    }
+} */
+
+
+@media  (min-width:481px) and (max-width:992px){
+
+  
+    .fondo-contacto{
+        height:100%;
+        background-size: cover;   
+        margin-bottom: -20rem;
+    }
+    #separador-gato-3{
+        width:60rem;
+        margin-top: -8rem;
+        margin-left: -5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    #hr-contacto{
+        margin-top: 0.01rem;
+        color: black;
+        padding: 0.4px;
+        width: 100%;
+        background: #000000;
+    }
+    #contacto-facebook-2{
+        height: 50%;
+    }
+    #boton-facebook{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        border-radius: 0.2rem;
+        font-weight: 200;
+        font-size: 3rem;
+    }
+     #boton-whatsapp{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        border-radius: 0.2rem;
+        font-weight: 200;
+        font-size: 3rem;
+    }
+        
+    .contacto-titulo{
+        font-size: 12rem;
+        letter-spacing: 1px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-facebook{
+        height: 40rem;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-whatsapp{
+        margin-top: -2.5rem;
+        height: 40rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+    }
+    .contacto-subtitulo{
+        font-size: 10rem;
+        padding-top: 10rem;
+    }
+      .fondo-pie{
+        background: rgb(136, 245, 230);
+        padding: 0.1rem;
+    }
+    .menu-pie{
+        font-family: 'Amatic SC', cursive;
+        font-size: 4rem;
+        margin-right: 1rem;
+
+    }
+    #menu-pie{
+       margin-top: -2rem;
+        margin-right: 2rem;
+       
+    }
+    .pie-blobert{
+        margin-left: 50rem;
+        margin-top: -6rem;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2.3rem;
+    }
+    .blobert-web{
+        font-size: 2rem;
+    }
+}
+
+
+@media  (min-height:800px) and (max-height:900px){
+     .fondo-contacto-facebook{
+        margin-top: -1.5rem;
+        height: 27rem;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+.fondo-contacto-whatsapp{
+        margin-top: -2.5rem;
+        height: 24rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+    }
+
+}
+@media (min-width:993px)and (max-width:1600px){
+    .fondo-contacto{
+        height:100vh;
+        background-size: cover;   
+        margin-bottom: -20rem;
+    }
+
+    #separador-gato-3{
+        width:30rem;
+        margin-top: -5rem;
+       
+    }
+
+    #hr-contacto{
+        margin-top: 0.01rem;
+        color: black;
+        padding: 0.4px;
+        width: 100%;
+        background: #000000;
+    }
+    #contacto-facebook-2{
+        height: 45.9%;
+    }
+    #boton-facebook{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+     #boton-whatsapp{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+        
+    .contacto-titulo{
+        letter-spacing: 1px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-facebook{
+        margin-top: -1.5rem;
+        height: 40rem;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-whatsapp{
+        margin-top: -2.5rem;
+        height: 40rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+    }
+    .contacto-subtitulo{
+        padding-top: 10rem;
+    }
+}
+@media (min-width:1200px) and (max-width:1599px){
+   .fondo-contacto-facebook{
+        margin-top: 0rem;
+        height: 48rem;;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-whatsapp{
+        margin-top: 0rem;
+        height: 48rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+    }
+        .fondo-pie{
+        background: rgb(136, 245, 230);
+        padding: 1.6rem;
+        margin-top: -6.3rem;
+    }
+    .menu-pie{
+        font-family: 'Amatic SC', cursive;
+        font-size: 2rem;
+
+        margin-right: 1rem;
+
+    }
+    #menu-pie{
+       margin-top: -2rem;
+        margin-right: 2rem;
+       
+    }
+    .pie-blobert{
+        margin-left: 36rem;
+        margin-top: -2.3rem;
+        font-family: 'Amatic SC', cursive;
+        font-size: 1.2rem;
+    }
+    .blobert-web{
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width:1600px){
+
+    .fondo-contacto{
+        padding-top: 1.9rem;
+        height:100vh;
+        background-size: cover;   
+        margin-bottom: -20rem;
+    }
+
+    #separador-gato-3{
+        width:30rem;
+        margin-top: -5rem;
+       
+    }
+
+    #hr-contacto{
+        margin-top: 0.01rem;
+        color: black;
+        padding: 0.4px;
+        width: 99%;
+        background: #000000;
+    }
+
+    #boton-facebook{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+     #boton-whatsapp{
+        background:#a0f5cc00;
+        border:1px solid #ffffff;
+        color: white;
+        height: 1.7rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+
+    .contacto-titulo{
+        font-size: 5rem;
+        letter-spacing: 1px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-facebook{
+      
+        height: 47rem;;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+
+    }
+    .fondo-contacto-whatsapp{
+
+        height: 47rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        background: rgb(33, 180, 87);
+
+    }
+    .contacto-subtitulo{
+        font-size: 5rem;
+        margin-top: 20rem;
+    }
+    #contacto-facebook-2{
+     
+        background: rgb(139, 174, 250);
+        padding: 6.85rem;
+    }
+    .fondo-pie{
+        background: rgb(136, 245, 230);
+        padding: 1.6rem;
+    }
+    .menu-pie{
+        font-family: 'Amatic SC', cursive;
+        font-size: 2rem;
+
+        margin-left: 1rem;
+
+    }
+    #menu-pie{
+        margin-left: 0rem;
+       
+    }
+    .pie-blobert{
+      float: right;
+      margin-top: -2rem;
+       font-family: 'Amatic SC', cursive;
+       font-size: 1.4rem;
+    }
+    .blobert-web{
+
+        font-size: 1rem;
+    }
+}
+  @media  (min-width:800px) and (max-width:900px){
+
+  .fondo-contacto-facebook{
+        margin-top: -1.5rem;
+        height: 50rem;
+        color: white;
+        background: #3B5998;
+        font-family: 'Amatic SC', cursive;
+    }
+    .fondo-contacto-whatsapp{
+        margin-top: -2.5rem;
+        height: 45rem;
+        color:white;
+        font-family: 'Amatic SC', cursive;
+        
+
+    }
+         .fondo-pie{
+        background: rgb(136, 245, 230);
+        padding: 1.6rem;
+        margin-top: -6.3rem;
+    }
+    .menu-pie{
+        font-family: 'Amatic SC', cursive;
+        font-size: 2rem;
+
+        margin-left: 1rem;
+
+    }
+    #menu-pie{
+       margin-top: -2rem;
+        margin-left: 0rem;
+       
+    }
+    .pie-blobert{
+
+        margin-top: -2rem;
+       font-family: 'Amatic SC', cursive;
+       font-size: 1.2rem;
+    }
+    .blobert-web{
+        font-size: 1rem;
+    }
+}
+.pointer{cursor: pointer;}
+
+  

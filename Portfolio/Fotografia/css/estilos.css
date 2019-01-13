@@ -1,0 +1,848 @@
+@media (min-width: 320px) and (max-width: 700px) {
+  .logo {
+    font-family: 'Arvo', italic;
+    font-synthesis: 400; }
+
+  .seccion {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1rem; }
+
+  .seccion:hover {
+    color: #838383; }
+
+  .social {
+    margin-bottom: -2rem; }
+
+  .display-mobile {
+    display: block; }
+
+  .display-normal {
+    display: none; }
+
+  #carousel {
+    margin-top: 25rem;
+    margin-bottom: -41.5rem;
+    position: relative;
+    height: 700px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden; }
+
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1; }
+
+  #carousel div img {
+    width: 400px;
+    transition: width 1s; }
+
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideLeft img {
+    width: 200px; }
+
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideRight img {
+    width: 200px; }
+
+  #carousel div.prev {
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.prev img {
+    width: 300px; }
+
+  #carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.prevLeftSecond img {
+    width: 200px; }
+
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%); }
+
+  #carousel div.next {
+    z-index: 5;
+    left: 70%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.next img {
+    width: 300px; }
+
+  #carousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.nextRightSecond img {
+    width: 200px; }
+
+  .buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -2rem; }
+
+  .quien-soy-imagen {
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid; }
+
+  .texto {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio1 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18rem;
+    width: 15rem;
+    background-image: url("../imagenes/jeremy-wong-weddings-602196-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem; }
+
+  .servicio2 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18rem;
+    width: 15rem;
+    background-image: url("../imagenes/jakob-dalbjorn-730178-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem; }
+
+  .servicio3 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18rem;
+    width: 15rem;
+    background-image: url("../imagenes/adi-goldstein-717512-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem; }
+
+  .servicio4 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18rem;
+    width: 15rem;
+    background-image: url("../imagenes/alexander-popov-566913-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem; }
+
+  .titulo-servicio {
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    margin-left: 0rem; }
+
+  .fondo-hover {
+    background: rgba(0, 0, 0, 0); }
+
+  .servicio1:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.048); }
+  .servicio1:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3;
+    margin-bottom: 0.3rem;
+    margin-top: -0.5rem; }
+  .servicio1:hover .texto-servicio {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Arvo', serif; }
+  .servicio1:hover .titulo-servicio {
+    margin-top: 1rem;
+    margin-left: 0rem; }
+
+  .servicio2:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.048); }
+  .servicio2:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3;
+    margin-bottom: 0.3rem;
+    margin-top: -0.5rem; }
+  .servicio2:hover .texto-servicio {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Arvo', serif; }
+  .servicio2:hover .titulo-servicio {
+    margin-top: 1rem;
+    margin-left: 0rem; }
+
+  .servicio3:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.048); }
+  .servicio3:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3;
+    margin-bottom: 0.3rem;
+    margin-top: -0.5rem; }
+  .servicio3:hover .texto-servicio {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Arvo', serif; }
+  .servicio3:hover .titulo-servicio {
+    margin-top: 1rem;
+    margin-left: 0rem; }
+
+  .servicio4:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.048); }
+  .servicio4:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3;
+    margin-bottom: 0.3rem;
+    margin-top: -0.5rem; }
+  .servicio4:hover .texto-servicio {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Arvo', serif; }
+  .servicio4:hover .titulo-servicio {
+    margin-top: 1rem;
+    margin-left: 0rem; }
+
+  .texto-servicio {
+    display: none; }
+
+  #hr-servicio {
+    display: none; }
+
+  .contacto-fb {
+    border: solid;
+    border-width: 1.5px;
+    height: 15rem;
+    width: 15rem;
+    border-radius: .2rem;
+    background: #8b9dc3;
+    margin-bottom: 0.5rem; }
+
+  .contacto-wp {
+    border: solid;
+    border-width: 1.5px;
+    height: 15rem;
+    width: 15rem;
+    border-radius: .2rem;
+    background: #519089;
+    margin-bottom: 0.5rem; }
+
+  .contacto-em {
+    border: solid;
+    border-width: 1.5px;
+    height: 15rem;
+    width: 15rem;
+    border-radius: .2rem;
+    background: #ce625e;
+    margin-bottom: 0.5rem; }
+
+  #contacto {
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
+
+  .footer-index {
+    margin-top: -41rem; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    font-family: 'Arvo', italic;
+    font-synthesis: 400; }
+
+  .seccion {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1rem; }
+
+  .seccion:hover {
+    color: #838383; }
+
+  .social {
+    margin-bottom: -2rem; }
+
+  #hr-nav {
+    background: #000; }
+
+  .display-mobile {
+    display: none; }
+
+  .display-normal {
+    display: block; }
+
+  #carousel {
+    margin-top: 25rem;
+    margin-bottom: -22.8rem;
+    position: relative;
+    height: 700px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden; }
+
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1; }
+
+  #carousel div img {
+    width: 400px;
+    transition: width 1s; }
+
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideLeft img {
+    width: 200px; }
+
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideRight img {
+    width: 200px; }
+
+  #carousel div.prev {
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.prev img {
+    width: 300px; }
+
+  #carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.prevLeftSecond img {
+    width: 200px; }
+
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%); }
+
+  #carousel div.next {
+    z-index: 5;
+    left: 70%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.next img {
+    width: 300px; }
+
+  #carousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.nextRightSecond img {
+    width: 200px; }
+
+  .buttons {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px; }
+
+  .quien-soy-imagen {
+    border-radius: .5rem;
+    border-width: 1.5px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+    height: 600px; }
+
+  #quiensoy-h2 {
+    font-family: 'Arvo', serif; }
+
+  .texto {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio1 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/jeremy-wong-weddings-602196-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio2 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/jakob-dalbjorn-730178-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio3 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/adi-goldstein-717512-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio4 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/alexander-popov-566913-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .fondo-hover {
+    background: rgba(0, 0, 0, 0); }
+
+  .servicio1:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio1:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio1:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio1:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio2:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio2:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio2:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio2:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio3:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio3:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio3:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio3:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio4:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio4:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio4:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio4:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .texto-servicio {
+    display: none; }
+
+  .titulo-servicio {
+    background: rgba(0, 0, 0, 0.09);
+    margin-left: -0.8rem;
+    font-size: 3rem;
+    margin-top: 8rem; }
+
+  #hr-servicio {
+    display: none; }
+
+  .contacto-fb {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #8b9dc3;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  .contacto-wp {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #519089;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  .contacto-em {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #ce625e;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  #contacto {
+    margin-top: 10rem;
+    margin-bottom: 10rem; }
+
+  .footer-index {
+    margin-top: -7rem; } }
+@media (min-width: 1281px) {
+  .logo {
+    font-family: 'Arvo', italic;
+    font-synthesis: 400; }
+
+  .seccion {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1rem; }
+
+  .seccion:hover {
+    color: #838383; }
+
+  .social {
+    margin-bottom: -2rem; }
+
+  #hr-nav {
+    background: #000; }
+
+  .display-mobile {
+    display: none; }
+
+  .display-normal {
+    display: block; }
+
+  #carousel {
+    margin-top: 25rem;
+    margin-bottom: -22.8rem;
+    position: relative;
+    height: 700px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden; }
+
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1; }
+
+  #carousel div img {
+    width: 400px;
+    transition: width 1s; }
+
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideLeft img {
+    width: 200px; }
+
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%); }
+
+  #carousel div.hideRight img {
+    width: 200px; }
+
+  #carousel div.prev {
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.prev img {
+    width: 300px; }
+
+  #carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.prevLeftSecond img {
+    width: 200px; }
+
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%); }
+
+  #carousel div.next {
+    z-index: 5;
+    left: 70%;
+    transform: translateY(50px) translateX(-50%); }
+
+  #carousel div.next img {
+    width: 300px; }
+
+  #carousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7; }
+
+  #carousel div.nextRightSecond img {
+    width: 200px; }
+
+  .buttons {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px; }
+
+  .quien-soy-imagen {
+    border-radius: .5rem;
+    border-width: 1.5px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+    height: 600px; }
+
+  #quiensoy-h2 {
+    font-family: 'Arvo', serif; }
+
+  .texto {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio1 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/jeremy-wong-weddings-602196-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio2 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/jakob-dalbjorn-730178-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio3 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/adi-goldstein-717512-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .servicio4 {
+    border: solid;
+    border-width: 1.4px;
+    height: 18.9rem;
+    width: 15rem;
+    background-image: url("../imagenes/alexander-popov-566913-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Arvo', serif; }
+
+  .fondo-hover {
+    background: rgba(0, 0, 0, 0); }
+
+  .servicio1:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio1:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio1:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio1:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio2:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio2:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio2:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio2:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio3:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio3:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio3:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio3:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .servicio4:hover .fondo-hover {
+    background: rgba(0, 0, 0, 0.027);
+    background-size: cover; }
+  .servicio4:hover .titulo-servicio {
+    background: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem; }
+  .servicio4:hover #hr-servicio {
+    display: block;
+    border-color: #c3c3c3; }
+  .servicio4:hover .texto-servicio {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Arvo', serif;
+    color: white; }
+
+  .texto-servicio {
+    display: none; }
+
+  .titulo-servicio {
+    background: rgba(0, 0, 0, 0.09);
+    margin-left: -0.8rem;
+    font-size: 3rem;
+    margin-top: 8rem; }
+
+  #hr-servicio {
+    display: none; }
+
+  .contacto-fb {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #8b9dc3;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  .contacto-wp {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #519089;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  .contacto-em {
+    border: solid;
+    border-width: 1.5px;
+    height: 18.9rem;
+    width: 15rem;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+    background: #ce625e;
+    cursor: pointer;
+    font-family: 'Arvo', serif; }
+
+  #contacto {
+    margin-top: 10rem;
+    margin-bottom: 10rem; }
+
+  .footer-index {
+    margin-top: -7rem; } }
+
+/*# sourceMappingURL=estilos.css.map */
